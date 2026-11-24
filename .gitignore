@@ -65,3 +65,22 @@ api/eval/cache/
 
 # 后续git提交的要过滤的，除了docs文件夹，还有uv的文件（后续补充）
 docs/
+# macOS 文件夹元数据
+.DS_Store
+
+# Celery 定时任务运行状态
+/api/celerybeat-schedule*
+
+# 本地上传和存储数据，仅保留目录占位文件
+/api/storage/*
+!/api/storage/.gitkeep
+
+# macOS 文件夹元数据
+.DS_Store
+
+# Celery 定时任务运行状态
+/api/celerybeat-schedule*
+
+# 本地上传和存储数据，仅保留目录占位文件
+/api/storage/*
+!/api/storage/.gitkeep
